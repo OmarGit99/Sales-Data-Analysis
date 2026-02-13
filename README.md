@@ -56,7 +56,7 @@ Until the CRO can tie the drop to specific levers (e.g., “Enterprise in APAC,�
 
 ## Part 2 – Data Exploration & Insights
 
-See **`DS - Applied ML Engineer/analysis.py`** for full EDA. Summary:
+See **`analysis.py`** for full EDA. Summary:
 
 - **3 business insights** (with plain-language “why it matters” and “what action”) are in the script output and summarized in “Key insights” below.
 - **2 custom metrics** are defined and computed in code:
@@ -66,7 +66,6 @@ See **`DS - Applied ML Engineer/analysis.py`** for full EDA. Summary:
 Run:
 
 ```bash
-cd "DS - Applied ML Engineer"
 pip install -r requirements.txt
 python analysis.py
 ```
@@ -94,7 +93,7 @@ python analysis.py
   - Combine with Segment Impact Score to focus on high-impact segments first.  
   - Re-run periodically (e.g., quarterly) to see if drivers change.
 
-Implementation and interpretation are in **`DS - Applied ML Engineer/analysis.py`** (same script as Part 2).
+Implementation and interpretation are in **`analysis.py`** (same script as Part 2).
 
 ---
 
@@ -184,7 +183,6 @@ Implementation and interpretation are in **`DS - Applied ML Engineer/analysis.py
 ### Setup and run
 
 ```bash
-cd "DS - Applied ML Engineer"
 pip install -r requirements.txt
 python analysis.py
 ```
@@ -198,9 +196,9 @@ python analysis.py
 | File | Purpose |
 |------|--------|
 | `README.md` | This file: framing, system design, reflection, run instructions |
-| `DS - Applied ML Engineer/analysis.py` | EDA, custom metrics, Win Rate Driver model |
-| `DS - Applied ML Engineer/skygeni_sales_data.csv` | Input data |
-| `DS - Applied ML Engineer/requirements.txt` | Python dependencies |
+| `analysis.py` | EDA, custom metrics, Win Rate Driver model |
+| `skygeni_sales_data.csv` | Input data |
+| `requirements.txt` | Python dependencies |
 
 ### Key decisions
 
