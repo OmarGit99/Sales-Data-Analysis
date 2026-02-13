@@ -1,7 +1,4 @@
-# SkyGeni – Sales Intelligence Challenge
-
-**Role:** Data Science / Applied AI Engineer  
-**Submission:** Approach, code, and key decisions.
+# Sales Intelligence
 
 ---
 
